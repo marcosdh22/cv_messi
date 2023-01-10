@@ -1,0 +1,64 @@
+/**
+Aquí va el estilo para los párrafos
+*/
+body{
+    background-color: lightblue;
+}
+
+@media only screen and (max-width: 600px){
+    header{
+        background-color: red;
+        }
+}
+
+p{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #312e2e;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    margin: 50px;
+    border-width: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+/**
+Aquí va el estilo para los h1
+*/
+
+h2, h3{
+    color:purple;
+    font-size: 20px;
+    font-style: italic;
+    margin: 30px;
+}
+
+ul{
+    background-color: yellow;
+    border: 2px;
+}
+
+button{
+    border-color: chocolate;
+    border-width: 4px;
+}
+
+iframe{
+    border: solid red 5px;
+}
+
+h4{
+    color: black;
+    padding: 4px blue;
+}
+
+.titcop{
+    margin-left: 100px;
+    padding-bottom: 10px;
+    border-color: burlywood;
+}

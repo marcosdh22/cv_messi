@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Blog de viajes de Marcos</title>        
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <link rel="icon" type="image/x-icon" href="logo_pract.drawio.png">
+    <!-- Acá poner logo y más para la compartida
+    <meta property="og:title" content="El Blog de viajes de Marcos" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="https://es.wikipedia.org/wiki/Corea_del_Norte" />
+    <meta property="og:image" content="logo.jpg" />
+    -->
+</head>
+<body>
+    <header>
+        <div>
+        <!-- Ajustar banner -->
+        <img src="banner.jpg" alt="No se puede visualizar el banner" width="100%" height="auto" style="margin: 0px;padding: 0px; border: 0px;"> 
+    
+    
+        <!-- Ajustar logo -->
+        <img src="logo_pract.drawio.png" alt="No se puede ver el logo">  
+        </div>
+        
+    </header>    
+    <nav>
+    <!-- Crear menu superior con 4 columnas -->
+    <!-- Ver si no se puede hacer con una "table".
+    mirarlo en W3Schools     
+    En la pestaña de abajo te muestra como hacerle los bordes. -->
+    <div class="menu_sup">
+        <button class="but_men"> Viaje 1</button>
+        <button class="but_men"> Viaje 2</button>
+        <button class="but_men"> Viaje 3</button>
+        <button class="but_men"> Viaje 4</button>
+    </div>
+    <!-- Foto de Marcos-->
+    <img src="foto_mark.jpg" alt="No se puede visualizar la foto"> 
+    <!-- Nombre como pie de la foto-->
+    <h1>Marcos Martín de Hertelendy</h1>
+    <!-- El siguiente codig es para que aparezca un mensaje cuando se
+    pasa el mouse por encima del texto
+    title="I'm a tooltip"-->
+    <!-- Crear cuadro de texto con margen y encuadrado -->
+    <section class="recuadro">
+        <h2 title="Sigue leyendo">¡Bienvenido a mi blog de Viajes!</h2>
+        <h3>Si te interesa conocer sobre mis viajes, te invito a quedarte</h3>
+        <p> Mi primer viaje sin mi familia comienza en un intercambio en USA, cuando estuve un mes
+            en un colegio de Arizona, pero tuve la oportunidad de pasar por NY y LA
+        </p>
+        <!-- El <br> sirve para meter un corte de linea-->
+        <p>Unos años después agarré una mochila y, acompañado por dos amigos de mi hermano,
+            me embarque hacia Ecuador, Perú y Bolivia. Playa, selva, cultura, montaña 
+            y mucha comida rica fue lo más destacable!
+        </p>
+        <p>Por último, tomé valor y emprendí en una aventura Working Holiday en Australia. Trabajé como obrero y viajé 
+            por el país de los canguros. Conocí gente de todo el mundo y aprendí a manejarme
+            solo en un país distinto y a experimentar otra sociedad completamente distinta.
+        </p>
+        <p>Después de Australia, antes de volver, pasé por el Sudeste Asiático. Conocí Singapur,
+            Malasia, Tailandia y Vietnam. Una aventura totalmente loca y disfrutable. Realmente
+            salí de occidente y encontré otras culturas y tradiciones totalmente diferente. Ni hablar
+            de la diferencia de los paisajes y la comida!
+        </p>
+    </section>
+    <!-- Titulo newsletter-->
+    <h3>¿Querés estar al tanto de las nuevas noticias?¿Saber de consejos de viaje y nuevos destinos?</h3>
+    <p>Para eso, dejame acá abajo tu nombre y tu correo!</p>
+    <!-- insertar newsletter-->
+         <form action="" method="get">
+            <label>Nombre</label>
+            <input type="text" name="nombre" placeholder="Ingrese su nombre" required> 
+
+            <label>Correo electrónico</label>
+            <input type="email" name="correo" placeholder="Ingrese su correo electrónico" required>
+
+            <input type="submit" value="Suscribirme al Newsletter">
+         </form>
+    </nav>
+    <footer>
+        <p>Ésta página fue creada con el fin de aprender y consolidar conceptos de HTML y CSS</p>
+    </footer>
+</body>
+</html>
